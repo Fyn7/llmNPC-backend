@@ -1,0 +1,22 @@
+# ASP.NET Core 编译产物
+bin/
+obj/
+# IDE配置文件（VS/VS Code）
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# 本地数据库文件（SQLite）
+Data/*.db
+Data/*.db-shm
+Data/*.db-wal
+# 用户秘钥（敏感信息）
+appsettings.Development.json
+secrets.json
+# 临时文件
+*.tmp
+*.log
+# NuGet缓存
+.nuget/

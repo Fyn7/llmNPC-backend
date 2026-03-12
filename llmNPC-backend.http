@@ -1,0 +1,6 @@
+@llmNPC_backend_HostAddress = http://localhost:5191
+
+GET {{llmNPC_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
